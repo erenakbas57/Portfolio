@@ -29,7 +29,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClick }) => {
       <Card className="h-full flex flex-col overflow-hidden group">
         <div className="relative h-48 overflow-hidden">
           <Image
-            src={project.image}
+            src={project.image[0]}
             width={500}
             height={300}
             alt={project.title}
@@ -42,7 +42,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClick }) => {
           <CardTitle className="text-orange-600 dark:text-orange-400 group-hover:text-orange-500 transition-colors">
             {project.title}
           </CardTitle>
-          <span className="text-md text-orange-500 font-medium">
+          <span className="text-md text-gray-500 font-medium hover:text-orange-900">
             [Detaylar İçin Tıklayınız]
           </span>
         </CardHeader>

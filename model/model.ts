@@ -4,12 +4,13 @@ export interface Project {
   title: string;
   description: string;
   longDescription: string;
-  image: string;
+  image: string[];
   tags: string[];
   github: string;
   demo: string;
   lastUpdated: string;
   features: string[];
+  learnings: string[];
 }
 
 export interface Experience {
@@ -31,7 +32,7 @@ export interface Tech {
 export interface Skill {
   icon: string;
   title: string;
-  description: string;
+  description: string[];
   color: string;
 }
 

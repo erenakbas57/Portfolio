@@ -42,25 +42,25 @@ export const skills: Skill[] = [
   {
     icon: "code",
     title: "Full Stack Development",
-    description: "React, Node.js, TypeScript, Next.js",
+    description: ["React", "Next.js", "Node.js", "Express"],
     color: "bg-blue-500/10 text-blue-500",
   },
   {
     icon: "database",
     title: "Database Management",
-    description: "PostgreSQL, MongoDB, Redis",
+    description: ["PostgreSQL", "MongoDB", "Prisma", "SQLite"],
     color: "bg-green-500/10 text-green-500",
   },
   {
     icon: "cloud",
     title: "Cloud Services",
-    description: "AWS, Docker, Kubernetes",
+    description: [ "Firebase", "AWS", "Heroku", "Vercel"],
     color: "bg-purple-500/10 text-purple-500",
   },
   {
     icon: "lock",
     title: "Security",
-    description: "OAuth, JWT, Encryption",
+    description: ["JWT", "OAuth", "SSL"],
     color: "bg-red-500/10 text-red-500",
   },
 ];
@@ -95,7 +95,9 @@ export const projects: Project[] = [
     description:
       "Farklı yapay zeka sitelerinin keşfedilebileceği bir platform.",
     longDescription: `Bu proje, kullanıcıların en güncel ve faydalı yapay zeka araçlarına erişimini kolaylaştıran modern bir web platformudur.`,
-    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/ai-1.png",
+    image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/ai-1.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/ai-2.png"
+    ],
     tags: [
       "Next.js",
       "TypeScript",
@@ -115,17 +117,21 @@ export const projects: Project[] = [
       "Zustand ile durum yönetimi",
       "Etkileşimli kullanıcı arayüzü",
     ],
+    learnings: [
+      "Next.js ile dinamik web uygulamaları geliştirme",
+      "TypeScript ile daha güvenli ve hatasız kod yazma",
+      "TailwindCSS ile modern ve duyarlı tasarım uygulama",
+      "MongoDB ve Prisma ile veritabanı yönetimi",
+      "Zustand ile global durum yönetimi kullanımı",
+    ],
   },
   {
     title: "Developer Portfolio",
     description:
       "JS veriler ile kolayca düzenlenebilen kişisel portföy web sitesi.",
     longDescription: `Bu proje, geliştiricilerin kendi portföy web sitelerini oluşturmasını kolaylaştırmak için tasarlanmıştır. Verileri JSON dosyası üzerinden alır ve dinamik olarak oluşturur.`,
-    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/portfolio.png",
-    tags: [
-      "React",
-      "GitHub Pages",
-    ],
+    image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/portfolio.png"],
+    tags: ["React", "GitHub Pages"],
     github: "https://github.com/Dev-Portfolio",
     demo: "https://erenakbas57.github.io/Dev-Portfolio/",
     lastUpdated: "2025-02",
@@ -135,13 +141,18 @@ export const projects: Project[] = [
       "GitHub Pages desteği",
       "Duyarlı ve modern tasarım",
     ],
+    learnings: [
+      "React ile bileşen tabanlı mimari geliştirme",
+      "GitHub Pages ile statik site yayına alma",
+      "JSON verisiyle dinamik içerik oluşturma",
+    ],
   },
   {
     title: "Ping Pong Game",
     description:
       "Python ve Django kullanarak geliştirilen web tabanlı bir ping-pong oyunu.",
     longDescription: `Bu proje, kullanıcıların ister kayıt olup ister 42API ile giriş yaparak birbirleriyle ping-pong ve taş-kağıt-makas oynayabileceği bir platform sunar. Yapay zekaya karşı oynanan oyunlarda istatistik tutulur ve grafiksel olarak gösterilir.`,
-    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/pingpong.webp",
+    image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/pingpong.webp"],
     tags: [
       "Python",
       "Django",
@@ -163,13 +174,19 @@ export const projects: Project[] = [
       "Oyuncu arama",
       "SPA mimarisi",
     ],
+    learnings: [
+      "Django ile REST API geliştirme",
+      "Docker ve PostgreSQL kullanarak veritabanı yönetimi",
+      "Bootstrap ile kullanıcı dostu UI oluşturma",
+      "Vanilla JavaScript ile dinamik SPA geliştirme",
+    ],
   },
   {
     title: "MiniShell",
     description:
       "Temel bash komutlarını C dilinde yeniden oluşturan bir komut satırı arayüzü.",
     longDescription: `MiniShell, Unix tabanlı işletim sistemlerinde kullanılan shell programlarının çalışma prensiplerini anlamak için geliştirilmiştir.`,
-    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/minishell.png",
+    image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/minishell.png"],
     tags: ["C", "Shell"],
     github: "https://github.com/erenakbas57/Minishell",
     demo: "",
@@ -180,12 +197,17 @@ export const projects: Project[] = [
       "Girdi ve çıktı yönlendirme",
       "Komut zincirleme ve arka planda çalıştırma",
     ],
+    learnings: [
+      "C ile sistem programlama",
+      "Unix süreç yönetimi",
+      "Shell komutlarının çalışma mantığı",
+    ],
   },
   {
     title: "Library Management System",
     description: "C# ile geliştirilen kütüphane ve market yönetim sistemi.",
     longDescription: `Bu proje, kütüphane işlemleri, üyelik yönetimi ve market satışlarını entegre bir şekilde yönetmeyi sağlar.`,
-    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/kihmed.png",
+    image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/kihmed.png"],
     tags: ["C#", ".Net Framework", "MySQL"],
     github: "https://github.com/erenakbas57/LibraryManagementApp",
     demo: "",
@@ -198,13 +220,18 @@ export const projects: Project[] = [
       "Satış İstatistikleri",
       "Veri Filtreleme",
     ],
+    learnings: [
+      "C# ve .Net Framework ile masaüstü uygulama geliştirme",
+      "MySQL ile veritabanı yönetimi",
+      "Kütüphane ve satış yönetim sistemlerinin entegrasyonu",
+    ],
   },
   {
     title: "Cub3d",
     description:
       "Raycasting yöntemiyle 3D görüntü işleme yapan bir oyun projesi.",
     longDescription: `Cub3d, klasik Wolfenstein 3D oyununa benzer bir yapı sunar. Oyuncuların 3D bir ortamda gezinmesini sağlar.`,
-    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/cub3d.png",
+    image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/cub3d.png"],
     tags: ["C", "Game"],
     github: "https://github.com/erenakbas57/cub3d",
     demo: "",
@@ -216,12 +243,17 @@ export const projects: Project[] = [
       "Doku (Texture) yönetimi",
       "Performans optimizasyonu",
     ],
+    learnings: [
+      "C ile grafik programlama",
+      "Raycasting algoritmasını uygulama",
+      "MiniLibX kullanarak oyun geliştirme",
+    ],
   },
   {
     title: "SoLong",
     description: "MiniLibX kütüphanesi ile geliştirilen 2D bir oyun.",
     longDescription: `Pacman benzeri bu oyunda verilen harita dosyasını okuyarak çeşitli algoritmalar geliştirerek harita kontrolleri sağlandı.`,
-    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/solong.png",
+    image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/solong.png"],
     tags: ["C", "Game"],
     github: "https://github.com/erenakbas57/so_long",
     demo: "",
@@ -231,6 +263,11 @@ export const projects: Project[] = [
       "Oyuncu Kontrolleri",
       "Harita Kontrolleri",
       "Grafik İşleme",
+    ],
+    learnings: [
+      "C ile 2D oyun geliştirme",
+      "Harita okuma ve oyun mantığı tasarlama",
+      "MiniLibX ile grafik işlemleri",
     ],
   },
 ];
