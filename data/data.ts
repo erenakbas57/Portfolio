@@ -95,7 +95,7 @@ export const projects: Project[] = [
     description:
       "Farklı yapay zeka sitelerinin keşfedilebileceği bir platform.",
     longDescription: `Bu proje, kullanıcıların en güncel ve faydalı yapay zeka araçlarına erişimini kolaylaştıran modern bir web platformudur.`,
-    image: "/assets/images/projects/ai-1.png",
+    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/ai-1.png",
     tags: [
       "Next.js",
       "TypeScript",
@@ -121,7 +121,7 @@ export const projects: Project[] = [
     description:
       "JS veriler ile kolayca düzenlenebilen kişisel portföy web sitesi.",
     longDescription: `Bu proje, geliştiricilerin kendi portföy web sitelerini oluşturmasını kolaylaştırmak için tasarlanmıştır. Verileri JSON dosyası üzerinden alır ve dinamik olarak oluşturur.`,
-    image: "/assets/images/projects/portfolio.png",
+    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/portfolio.png",
     tags: [
       "React",
       "GitHub Pages",
@@ -141,7 +141,7 @@ export const projects: Project[] = [
     description:
       "Python ve Django kullanarak geliştirilen web tabanlı bir ping-pong oyunu.",
     longDescription: `Bu proje, kullanıcıların ister kayıt olup ister 42API ile giriş yaparak birbirleriyle ping-pong ve taş-kağıt-makas oynayabileceği bir platform sunar. Yapay zekaya karşı oynanan oyunlarda istatistik tutulur ve grafiksel olarak gösterilir.`,
-    image: "/assets/images/projects/pingpong.webp",
+    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/pingpong.webp",
     tags: [
       "Python",
       "Django",
@@ -169,7 +169,7 @@ export const projects: Project[] = [
     description:
       "Temel bash komutlarını C dilinde yeniden oluşturan bir komut satırı arayüzü.",
     longDescription: `MiniShell, Unix tabanlı işletim sistemlerinde kullanılan shell programlarının çalışma prensiplerini anlamak için geliştirilmiştir.`,
-    image: "/assets/images/projects/minishell.png",
+    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/minishell.png",
     tags: ["C", "Shell"],
     github: "https://github.com/erenakbas57/Minishell",
     demo: "",
@@ -185,7 +185,7 @@ export const projects: Project[] = [
     title: "Library Management System",
     description: "C# ile geliştirilen kütüphane ve market yönetim sistemi.",
     longDescription: `Bu proje, kütüphane işlemleri, üyelik yönetimi ve market satışlarını entegre bir şekilde yönetmeyi sağlar.`,
-    image: "/assets/images/projects/kihmed.png",
+    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/kihmed.png",
     tags: ["C#", ".Net Framework", "MySQL"],
     github: "https://github.com/erenakbas57/LibraryManagementApp",
     demo: "",
@@ -204,7 +204,7 @@ export const projects: Project[] = [
     description:
       "Raycasting yöntemiyle 3D görüntü işleme yapan bir oyun projesi.",
     longDescription: `Cub3d, klasik Wolfenstein 3D oyununa benzer bir yapı sunar. Oyuncuların 3D bir ortamda gezinmesini sağlar.`,
-    image: "/assets/images/projects/cub3d.png",
+    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/cub3d.png",
     tags: ["C", "Game"],
     github: "https://github.com/erenakbas57/cub3d",
     demo: "",
@@ -221,7 +221,7 @@ export const projects: Project[] = [
     title: "SoLong",
     description: "MiniLibX kütüphanesi ile geliştirilen 2D bir oyun.",
     longDescription: `Pacman benzeri bu oyunda verilen harita dosyasını okuyarak çeşitli algoritmalar geliştirerek harita kontrolleri sağlandı.`,
-    image: "/assets/images/projects/solong.png",
+    image: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/solong.png",
     tags: ["C", "Game"],
     github: "https://github.com/erenakbas57/so_long",
     demo: "",

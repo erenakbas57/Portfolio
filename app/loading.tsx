@@ -56,7 +56,7 @@ export default function Loading() {
         className="absolute bottom-1/4 text-center"
       >
         <h2 className="text-2xl font-bold text-orange-600 dark:text-orange-400 mb-2">
-          Loading
+          Yükleniyor
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: [0, 1, 0] }}
@@ -66,7 +66,7 @@ export default function Loading() {
           </motion.span>
         </h2>
         <p className="text-gray-600 dark:text-gray-400">
-          Preparing something amazing
+            Muhteşem Bir Şey Hazırlanıyor
         </p>
       </motion.div>
     </div>
