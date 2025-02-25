@@ -40,7 +40,7 @@ export default function About() {
               <div className="flex flex-col items-center">
                 <div className="w-40 h-40 sm:w-44 sm:h-44 rounded-full border-4 border-orange-500 dark:border-orange-700 overflow-hidden shadow-lg">
                   <img
-                    src="/assets/profile.png"
+                    src="https://avatars.githubusercontent.com/u/73079154?v=4"
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />

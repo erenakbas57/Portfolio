@@ -8,7 +8,7 @@ import Navigation from '@/components/navigation';
 export const metadata: Metadata = {
   title: "EREN AKBAŞ's Portfolio",
   description: 'Eren Akbaş - Full Stack Developer',
-  icons: { icon: "/assets/images/logo.png"},
+  icons: { icon: "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/logo.png"},
 };
 
 export default function RootLayout({
