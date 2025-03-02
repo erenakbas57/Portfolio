@@ -49,7 +49,7 @@ export default function About() {
                   Yazılım Geliştirici
                 </p>
                 <Link
-                  href="/Portfolio/projects"
+                  href="/projects"
                   className="mt-6 px-6 py-3 bg-orange-500 text-white font-semibold rounded-full shadow-lg hover:bg-orange-600 dark:hover:bg-orange-700 transition-all duration-300"
                 >
                   Projelerime Göz At
