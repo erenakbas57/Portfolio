@@ -21,15 +21,15 @@ type ProjectDialogProps = {
 const ProjectDialog: React.FC<ProjectDialogProps> = ({ project, onClose }) => {
   if (!project) return null;
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  
+
   const nextImage = () => {
-    setCurrentImageIndex((prev) => 
+    setCurrentImageIndex((prev) =>
       prev === project.image.length - 1 ? 0 : prev + 1
     );
   };
 
   const prevImage = () => {
-    setCurrentImageIndex((prev) => 
+    setCurrentImageIndex((prev) =>
       prev === 0 ? project.image.length - 1 : prev - 1
     );
   };
@@ -149,17 +149,19 @@ const ProjectDialog: React.FC<ProjectDialogProps> = ({ project, onClose }) => {
                 Projeye Git
               </a>
             </Button>
-            <Button variant="outline" asChild>
-              <a
-                href={project.demo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
-                {iconComponents.externalLink}
-                Demo Linki
-              </a>
-            </Button>
+            {   project.demo && (
+              <Button variant="outline" asChild>
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2"
+                >
+                  {iconComponents.externalLink}
+                  Demo Linki
+                </a>
+              </Button>
+            )}
           </div>
         </motion.div>
       </DialogContent>
