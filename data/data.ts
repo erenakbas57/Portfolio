@@ -99,8 +99,8 @@ export const projects: Project[] = [
     description:
       "Projeyi kendi felsefe araştırmalarımı daha anlaşılır görünümde görüp ilerlemek amacıyla geliştirdim.",
     longDescription: `Bu proje, araştırdığım ve notlarını tuttuğum filozoflar hakkında bilgiler girdiğim bir arşiv olması amacıyla yapıldı.`,
-    image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/ai-1.png",
-      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/ai-2.png"
+    image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/filozof-home.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/filozof-detail.png"
     ],
     tags: [
       "Next.js",
