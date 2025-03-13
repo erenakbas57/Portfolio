@@ -94,6 +94,33 @@ export const techStack: Tech[] = [
 ];
 
 export const projects: Project[] = [
+    {
+    title: "Filozof Ağacı",
+    description:
+      "Projeyi kendi felsefe araştırmalarımı daha anlaşılır görünümde görüp ilerlemek amacıyla geliştirdim.",
+    longDescription: `Bu proje, araştırdığım ve notlarını tuttuğum filozoflar hakkında bilgiler girdiğim bir arşiv olması amacıyla yapıldı.`,
+    image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/ai-1.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/ai-2.png"
+    ],
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "ShadcnUI",
+    ],
+    github: "https://github.com/filozof-agaci",
+    demo: "https://filozof-agaci.vercel.app",
+    lastUpdated: "2025-03",
+    features: [
+      "Filozofları ve felsefi düşünürleri keşfetme",
+      "Modern ve duyarlı tasarım",
+    ],
+    learnings: [
+      "Next.js ile dinamik web uygulamaları geliştirme",
+      "TypeScript ile daha güvenli ve hatasız kod yazma",
+      "TailwindCSS ile modern ve duyarlı tasarım uygulama",
+    ],
+  },
   {
     title: "Yapay Zeka Araçları",
     description:
