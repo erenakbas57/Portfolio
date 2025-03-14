@@ -108,7 +108,7 @@ export const projects: Project[] = [
       "TailwindCSS",
       "ShadcnUI",
     ],
-    github: "https://github.com/filozof-agaci",
+    github: "https://github.com/erenakbas57/filozof-agaci",
     demo: "https://filozof-agaci.vercel.app",
     lastUpdated: "2025-03",
     features: [
@@ -138,7 +138,7 @@ export const projects: Project[] = [
       "Prisma",
       "Zustand",
     ],
-    github: "https://github.com/Ai-Archive",
+    github: "https://github.com/erenakbas57/Ai-Archive",
     demo: "https://ai-archive.vercel.app",
     lastUpdated: "2025-02",
     features: [
@@ -163,7 +163,7 @@ export const projects: Project[] = [
     longDescription: `Bu proje, geliştiricilerin kendi portföy web sitelerini oluşturmasını kolaylaştırmak için tasarlanmıştır. Verileri JSON dosyası üzerinden alır ve dinamik olarak oluşturur.`,
     image: ["https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/portfolio.png"],
     tags: ["React", "GitHub Pages"],
-    github: "https://github.com/Dev-Portfolio",
+    github: "https://github.com/erenakbas57/Dev-Portfolio",
     demo: "https://erenakbas57.github.io/Dev-Portfolio/",
     lastUpdated: "2025-02",
     features: [
