@@ -127,8 +127,8 @@ export const projects: Project[] = [
       "DiogeniusAI , yapay zeka ajanları ile çoklu platform desteği sunan SaaS tabanlı bir uygulamadır.",
     longDescription: `DiogeniusAI, kullanıcıların çeşitli yapay zeka ajanları oluşturmasına, yönetmesine ve entegre etmesine olanak tanır. Uygulama, farklı platformlarda (web, WhatsApp, Instagram) sorunsuz çalışacak şekilde tasarlanmıştır ve kullanıcı dostu bir arayüz sunar.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/diogeniusai.png",
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/diogeniusai-2.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/diogeniusai.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/diogeniusai-2.png",
     ],
     tags: ["Next.js", "TypeScript", "TailwindCSS", "ShadcnUI", "OpenAI JS SDK", "Embeddings"],
     github: "",
@@ -159,8 +159,8 @@ export const projects: Project[] = [
       "DiogeniusAI projesinin tanıtım ve pazarlama amaçlı açtığım web sitesi.",
     longDescription: `DiogeniusAI Landing Page, projenin özelliklerini, faydalarını ve kullanım alanlarını tanıtmak amacıyla oluşturulmuş modern ve duyarlı bir web sitesidir.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/diogenius_lp.png",
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/diogenius_lp-2.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/diogenius_lp.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/diogenius_lp-2.png",
     ],
     tags: ["Next.js", "TypeScript", "TailwindCSS", "ShadcnUI"],
     github: "",
@@ -189,8 +189,8 @@ export const projects: Project[] = [
       "Diyojen Yazılım şirketim için kurumsal web sitesi.",
     longDescription: `Diyojen Yazılım web sitesi, şirketin hizmetlerini, projelerini ve iletişim bilgilerini tanıtmak amacıyla oluşturulmuş modern ve duyarlı bir web sitesidir.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/diyojen.png",
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/diyojen-2.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/diyojen.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/diyojen-2.png",
     ],
     tags: ["Next.js", "TypeScript", "TailwindCSS", "ShadcnUI", "Multi Language"],
     github: "",
@@ -221,8 +221,8 @@ export const projects: Project[] = [
       "Bilişim hizmetleri sunan Light Bilişim şirketi için kurumsal web sitesi.",
     longDescription: `Light Bilişim web sitesi, şirketin sunduğu bilişim hizmetlerini, projelerini ve iletişim bilgilerini tanıtmak amacıyla oluşturulmuş modern ve duyarlı bir web sitesidir.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/light.png",
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/light-2.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/light.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/light-2.png",
     ],
     tags: [
       "Next.js",
@@ -253,7 +253,7 @@ export const projects: Project[] = [
       "Tatlıcı Antepli İsmail Usta için kurumsal web sitesi.",
     longDescription: `Antepli İsmail Usta markası için kurumsal web sitesi.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/antepli.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/antepli.png",
     ],
     tags: [
       "WordPress",
@@ -279,7 +279,7 @@ export const projects: Project[] = [
       "Kitap Haber kurumu için kurumsal web sitesi.",
     longDescription: `Bir blog sitesi olarak kitap haberleri, incelemeleri ve yazar röportajlarını paylaşmak amacıyla oluşturulmuş modern ve duyarlı bir web sitesidir.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/kitaphaber.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/kitaphaber.png",
     ],
     tags: [
       "Next.js",
@@ -307,8 +307,8 @@ export const projects: Project[] = [
       "Projeyi kendi felsefe araştırmalarımı daha anlaşılır görünümde görüp ilerlemek amacıyla geliştirdim.",
     longDescription: `Bu proje, araştırdığım ve notlarını tuttuğum filozoflar hakkında bilgiler girdiğim bir arşiv olması amacıyla yapıldı.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/filozof-home.png",
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/filozof-detail.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/filozof-home.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/filozof-detail.png",
     ],
     tags: ["Next.js", "TypeScript", "TailwindCSS", "ShadcnUI"],
     github: "",
@@ -330,8 +330,8 @@ export const projects: Project[] = [
       "Farklı yapay zeka sitelerinin keşfedilebileceği bir platform.",
     longDescription: `Bu proje, kullanıcıların en güncel ve faydalı yapay zeka araçlarına erişimini kolaylaştıran modern bir web platformudur.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/ai-1.png",
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/ai-2.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/ai-1.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/ai-2.png",
     ],
     tags: [
       "Next.js",
@@ -367,7 +367,7 @@ export const projects: Project[] = [
       "TS veriler ile kolayca düzenlenebilen kişisel grafik tasarımcı portföy web sitesi.",
     longDescription: `Bu proje, grafik tasarımcıların kendi portföy web sitelerini oluşturmasını kolaylaştırmak için tasarlanmıştır. Verileri TypeScript dosyası üzerinden alır ve dinamik olarak oluşturur.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/graphic-designer-v2.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/graphic-designer-v2.png",
     ],
     tags: ["Next.js", "TypeScript", "TailwindCSS", "ShadcnUI"],
     github: "https://github.com/erenakbas57/graphic-designer-portfolio-v2",
@@ -390,7 +390,7 @@ export const projects: Project[] = [
       "TS veriler ile kolayca düzenlenebilen kişisel grafik tasarımcı portföy web sitesi.",
     longDescription: `Bu proje, grafik tasarımcıların kendi portföy web sitelerini oluşturmasını kolaylaştırmak için tasarlanmıştır. Verileri TypeScript dosyası üzerinden alır ve dinamik olarak oluşturur.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/gundogdu-design.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/gundogdu-design.png",
     ],
     tags: ["Next.js", "TypeScript", "TailwindCSS", "ShadcnUI"],
     github: "https://github.com/erenakbas57/graphic-designer-portfolio-v2",
@@ -413,7 +413,7 @@ export const projects: Project[] = [
       "Tek section olarak hazırlanmış kişisel kartvizit portföy web sitesi.",
     longDescription: `Bu proje, geliştiricilerin kendi kartvizit portföy web sitelerini oluşturmasını kolaylaştırmak için tasarlanmıştır. Tek sayfa olarak hazırlanmış ve hızlı erişim sağlar.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/bc.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/bc.png",
     ],
     tags: ["Vite"],
     github: "https://github.com/erenakbas57/bc",
@@ -436,7 +436,7 @@ export const projects: Project[] = [
       "JS veriler ile kolayca düzenlenebilen kişisel portföy web sitesi.",
     longDescription: `Bu proje, geliştiricilerin kendi portföy web sitelerini oluşturmasını kolaylaştırmak için tasarlanmıştır. Verileri JSON dosyası üzerinden alır ve dinamik olarak oluşturur.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/portfolio.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/portfolio.png",
     ],
     tags: ["React", "GitHub Pages"],
     github: "https://github.com/erenakbas57/Dev-Portfolio",
@@ -463,7 +463,7 @@ export const projects: Project[] = [
       "Python ve Django kullanarak geliştirilen web tabanlı bir ping-pong oyunu.",
     longDescription: `Bu proje, kullanıcıların ister kayıt olup ister 42API ile giriş yaparak birbirleriyle ping-pong ve taş-kağıt-makas oynayabileceği bir platform sunar. Yapay zekaya karşı oynanan oyunlarda istatistik tutulur ve grafiksel olarak gösterilir.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/pingpong.webp",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/pingpong.webp",
     ],
     tags: [
       "Python",
@@ -499,7 +499,7 @@ export const projects: Project[] = [
       "Temel bash komutlarını C dilinde yeniden oluşturan bir komut satırı arayüzü.",
     longDescription: `MiniShell, Unix tabanlı işletim sistemlerinde kullanılan shell programlarının çalışma prensiplerini anlamak için geliştirilmiştir.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/minishell.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/minishell.png",
     ],
     tags: ["C", "Shell"],
     github: "https://github.com/erenakbas57/Minishell",
@@ -522,7 +522,7 @@ export const projects: Project[] = [
     description: "C# ile geliştirilen kütüphane ve market yönetim sistemi.",
     longDescription: `Bu proje, kütüphane işlemleri, üyelik yönetimi ve market satışlarını entegre bir şekilde yönetmeyi sağlar.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/kihmed.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/kihmed.png",
     ],
     tags: ["C#", ".Net Framework", "MySQL"],
     github: "https://github.com/erenakbas57/LibraryManagementApp",
@@ -548,7 +548,7 @@ export const projects: Project[] = [
       "Raycasting yöntemiyle 3D görüntü işleme yapan bir oyun projesi.",
     longDescription: `Cub3d, klasik Wolfenstein 3D oyununa benzer bir yapı sunar. Oyuncuların 3D bir ortamda gezinmesini sağlar.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/cub3d.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/cub3d.png",
     ],
     tags: ["C", "Game"],
     github: "https://github.com/erenakbas57/cub3d",
@@ -572,7 +572,7 @@ export const projects: Project[] = [
     description: "MiniLibX kütüphanesi ile geliştirilen 2D bir oyun.",
     longDescription: `Pacman benzeri bu oyunda verilen harita dosyasını okuyarak çeşitli algoritmalar geliştirerek harita kontrolleri sağlandı.`,
     image: [
-      "https://github.com/erenakbas57/Portfolio/blob/master/public/assets/images/projects/solong.png",
+      "https://raw.githubusercontent.com/erenakbas57/Portfolio/refs/heads/master/public/assets/images/projects/solong.png",
     ],
     tags: ["C", "Game"],
     github: "https://github.com/erenakbas57/so_long",
